@@ -1,15 +1,15 @@
 import React from 'react'
 import './Intro.css'
 import Hire from '../assets/hireme.png'
-import reactLogo from '../assets/react.svg'
+// import reactLogo from '../assets/react.svg'
 import Resume from '../assets/resumeIcon.png';
 import { Link } from 'react-scroll'
 
 function Intro() {
   const handleResumeDownload = () => {
     const link = document.createElement("a");
-    link.href = "/LakshmanKumar_Resume.pdf"; // File should be in public folder
-    link.download = "LakshmanKumar_Resume.pdf";
+    link.href = "/Lakshman_Kumar_Resume.pdf"; // File should be in public folder
+    link.download = "Lakshman_Kumar_Resume.pdf";
     link.click();
   };
 
@@ -41,7 +41,7 @@ function Intro() {
         </div>
       </div>
 
-      <img src={reactLogo} alt="React Logo" className="logo2" />
+      {/* <img src={reactLogo} alt="React Logo" className="logo2" /> */}
     </section>
   )
 }
