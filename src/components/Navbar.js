@@ -6,11 +6,14 @@ import contactImg from '../assets/contact.png'
 import Menu from '../assets/menu.png'
 import {Link} from 'react-scroll'
 
+
 const  Navbar=()=> {
   const [showMenu , setShowMenu] =useState(false);
   return (
     <nav className='navbar' >
-        <img src={logo} alt='Logo' className='logo' />
+        <Link to="/">
+          <img src={logo} alt="Logo" className="logo" />
+        </Link>
 
         <div className='nav-links'>
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="nav-links-item" >Home</Link>

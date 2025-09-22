@@ -39,8 +39,8 @@ return (
             <p className='socialDesc'>Here you can connect with me on my social media</p>
           
             <div className='socialImgs'>
-                <a href='https://www.linkedin.com/public-profile/settings'><img src = {Linkedin} alt = 'Social' className='socialImg'/></a>
-                <a href='https://github.com/laksxman/lakshman-kumar.git'><img src = {Github} alt = 'Social' className='socialImg'/></a> 
+                <a href='https://www.linkedin.com/in/lakshman-kumar-9317331a1/'><img src = {Linkedin} alt = 'Social' className='socialImg'/></a>
+                <a href='https://github.com/laksxman?tab=repositories'><img src = {Github} alt = 'Social' className='socialImg'/></a> 
                 <a href='https://www.instagram.com/lakshman_yadav73?igsh=emJsZDdjcnIyd3c3'><img src = {Instagram} alt = 'Social' className='socialImg'/></a>
                 <a href='https://www.facebook.com/profile.php?id=100042128401304&mibextid=ZbWKwL'><img src = {Facebook} alt = 'Social' className='socialImg'/></a>
             </div>
