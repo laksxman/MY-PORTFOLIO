@@ -10,6 +10,7 @@ import Cplusplus from '../assets/c++.svg'
 import Reactlogo from '../assets/react-2.svg'
 import Nodelogo from '../assets/nodelogo.svg'
 import Pythonlogo from '../assets/python-5.svg'
+import NextJs from "../assets/nextjs-icon.svg"
 
 function about() {
   return (
@@ -31,7 +32,7 @@ function about() {
                 <img src={Html} alt='' className='aboutBarImg' />
                 <div className='aboutBarText'>
                     <h2>HTML</h2>
-                    <p>HyperText Markup Language</p>
+                    <p>HyperText Markup Language is used to structure the content of web pages.</p>
                 </div>
             </div>
         </div>
@@ -42,7 +43,7 @@ function about() {
                 <img src={Css} alt='' className='aboutBarImg' />
                 <div className='aboutBarText'>
                     <h2>CSS</h2>
-                    <p>Cascading Style Sheets</p>
+                    <p>Cascading Style Sheets is used to style and design web pages. </p>
                 </div>
             </div>
         </div>
@@ -125,6 +126,16 @@ function about() {
                 <div className='aboutBarText'>
                     <h2>React JS</h2>
                     <p>React is a declarative, efficient, and flexible JavaScript library for building user interfaces. </p>
+                </div>
+            </div>
+        </div>
+
+        <div className='aboutBars'>
+            <div className='aboutBar'>
+                <img src={NextJs} alt='' className='aboutBarImg' />
+                <div className='aboutBarText'>
+                    <h2>Next JS</h2>
+                    <p>Next.js is a powerful React framework enabling server-side rendering, static site generation, API routes, and optimized performance for modern web applications.</p>
                 </div>
             </div>
         </div>
