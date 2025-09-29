@@ -5,6 +5,7 @@ import Zoom from '../assets/zoom2.png'
 import Zerodha from '../assets/zerodha.png'
 import Cafe from '../assets/cafe.webp'
 import Task from '../assets/task.jpg'
+import IELTS from '../assets/IELTS.jpg'
 
 function Project() {
   return (
@@ -36,6 +37,14 @@ function Project() {
                 <p className='p2'>TechStac:- MERN Technology</p>
             </div>
             <a href='https://zerodhafrontend-0qv9.onrender.com'> <img src={Zerodha} alt='Zerodha App' className='projectImg'/> </a>
+        </div>
+
+        <div className='project-item'>
+            <div className='item-details'>
+                <p className='p1'>IELTS Institution</p>
+                <p className='p2'>TechStac:- MERN Technology</p>
+            </div>
+            <a href='https://ielts-frontend1.onrender.com/'> <img src={IELTS} alt='IELTS Homepage' className='projectImg'/> </a>
         </div>
 
         <div className='project-item'>
