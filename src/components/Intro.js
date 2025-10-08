@@ -1,7 +1,7 @@
 import React from 'react'
 import './Intro.css'
 import Hire from '../assets/hireme.png'
-// import reactLogo from '../assets/react.svg'
+import reactLogo from '../assets/photo2.png'
 import Resume from '../assets/resumeIcon.png';
 import { Link } from 'react-scroll'
 
@@ -41,7 +41,7 @@ function Intro() {
         </div>
       </div>
 
-      {/* <img src={reactLogo} alt="React Logo" className="logo2" /> */}
+      <img src={reactLogo} alt="React Logo" className="logo2" />
     </section>
   )
 }
