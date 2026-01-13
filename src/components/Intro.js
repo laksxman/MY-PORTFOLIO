@@ -8,8 +8,8 @@ import { Link } from 'react-scroll'
 function Intro() {
   const handleResumeDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Lakshman_Kumar_Resume.pdf"; // File should be in public folder
-    link.download = "Lakshman_Kumar_Resume.pdf";
+    link.href = "/Lakshman_Kumar_BTechCSE.pdf"; // File should be in public folder
+    link.download = "Lakshman_Kumar_BTechCSE.pdf";
     link.click();
   };
 

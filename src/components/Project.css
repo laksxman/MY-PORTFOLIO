@@ -69,6 +69,11 @@
     border-radius: 12px;
 }
 
+.bus .projectImg{
+    height: 15rem;
+    width: 100%;
+}
+
 .item-details .p1{
     text-align: center;
     justify-content: center;

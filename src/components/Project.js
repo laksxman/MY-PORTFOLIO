@@ -6,6 +6,7 @@ import Zerodha from '../assets/zerodha.png'
 import Cafe from '../assets/cafe.webp'
 import Task from '../assets/task.jpg'
 import IELTS from '../assets/IELTS.jpg'
+import Bus from '../assets/Bus.png'
 
 function Project() {
   return (
@@ -61,6 +62,14 @@ function Project() {
                 <p className='p2'>TechStac:- Next.js</p>
             </div>
             <a href='https://task-manager-go4i.onrender.com/'> <img src={Task} alt='Task Manager' className='projectImg'/> </a>
+        </div>
+
+        <div className='project-item bus'>
+            <div className='item-details'>
+                <p className='p1'>E-Bus Management System</p>
+                <p className='p2'>TechStac:- ReactJS, NodeJS, ExpressJS</p>
+            </div>
+            <a href='https://github.com/laksxman/E-Bus-Management-System'> <img src={Bus} alt='E-Bus Management System' className='projectImg'/> </a>
         </div>
     </section>
   )

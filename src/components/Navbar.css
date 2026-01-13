@@ -46,6 +46,7 @@
 
 .btn:hover{
     background: yellow;
+    cursor: pointer;
 }
 
 .btnImg{
