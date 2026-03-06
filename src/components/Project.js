@@ -1,7 +1,7 @@
 import React from 'react'
 import './Project.css'
 import Airnb from '../assets/airnb.webp'
-import Zoom from '../assets/zoom2.png'
+import Zoom from '../assets/zoom3.png'
 import Zerodha from '../assets/zerodha.png'
 import Cafe from '../assets/cafe.webp'
 import Task from '../assets/task.jpg'
