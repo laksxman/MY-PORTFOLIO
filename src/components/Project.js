@@ -7,6 +7,7 @@ import Cafe from '../assets/cafe.webp'
 import Task from '../assets/task.jpg'
 import IELTS from '../assets/IELTS.jpg'
 import Bus from '../assets/Bus.png'
+import AIInterview from '../assets/AIImage.webp'
 
 function Project() {
   return (
@@ -16,10 +17,18 @@ function Project() {
             <span className="projectDesc">Here are my Projects</span>
         </div>
 
+        <div className='project-item '>
+            <div className='item-details'>
+                <p className='p1'>AI-Powered Smart Interview</p>
+                <p className='p2'>TechStac:- MERN Stack, OPENAI API </p>
+            </div>
+            <a href='https://three-interviewiq-client-ajlu.onrender.com/'> <img src={AIInterview} alt='Airnb App' className='projectImg projectImg1'/> </a>
+        </div>
+
         <div className='project-item'>
             <div className='item-details'>
                 <p className='p1'>SmartStay Website</p>
-                <p className='p2'>TechStac:- MERN Technology, Google MAP APIs </p>
+                <p className='p2'>TechStac:- MERN Stack, Google MAP APIs </p>
             </div>
             <a href='https://airnub-website.onrender.com'> <img src={Airnb} alt='Airnb App' className='projectImg'/> </a>
         </div>
@@ -27,7 +36,7 @@ function Project() {
         <div className='project-item'>
             <div className='item-details'>
                 <p className='p1'>LiveMeet Website</p>
-                <p className='p2'>TechStac:-MERN Techmology and Socket.io</p>
+                <p className='p2'>TechStac:-MERN Stack and Socket.io</p>
             </div>
             <a href='https://zoomvideocallfrontend-jc9j.onrender.com'> <img src={Zoom} alt='Zoom App' className='projectImg'/> </a>
         </div>
@@ -35,7 +44,7 @@ function Project() {
         <div className='project-item'>
             <div className='item-details'>
                 <p className='p1'>Stock Exchange Website</p>
-                <p className='p2'>TechStac:- MERN Technology</p>
+                <p className='p2'>TechStac:- MERN Stack</p>
             </div>
             <a href='https://zerodhafrontend-0qv9.onrender.com'> <img src={Zerodha} alt='Zerodha App' className='projectImg'/> </a>
         </div>
