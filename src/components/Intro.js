@@ -1,7 +1,7 @@
 import React from 'react'
 import './Intro.css'
 import Hire from '../assets/hireme.png'
-import reactLogo from '../assets/photo2.png'
+import reactLogo from '../assets/photo4.jpeg'
 import Resume from '../assets/resumeIcon.png';
 import { Link } from 'react-scroll'
 

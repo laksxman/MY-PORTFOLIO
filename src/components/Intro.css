@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.logo2 {
+/* .logo2 {
     position: absolute;
     top: -4rem;
     right: 6em;
@@ -19,9 +19,9 @@
     width: auto;
     cursor: pointer;
     transition: transform 0.4s ease, filter 0.4s ease;
-}
+} */
 
-.logo2:hover {
+/* .logo2:hover {
     transform: scale(1.1);
     filter: drop-shadow(0 0 15px rgba(255, 255, 0, 0.7))
             drop-shadow(0 0 25px rgba(255, 255, 0, 0.5));
@@ -31,7 +31,7 @@
     .logo2 {
         animation: logo2-spin infinite 20s linear;
     }
-}
+} */
 
 @keyframes logo2-spin {
     from {
@@ -96,10 +96,10 @@
 }
 
 @media screen and (max-width: 840px) {
-    .logo2 {
+    /* .logo2 {
         height: 17em;
         opacity: 0.3;
-    }
+    } */
     .introContent {
         font-size: 10vw;
     }
@@ -108,18 +108,68 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .logo2 {
         right: 10vw;
         height: 15em;
         margin-top: 7rem;
     }
-}
+} */
 
-@media screen and (max-width: 340px) {
+/* @media screen and (max-width: 340px) {
     .logo2 {
         right: 10vw;
         height: 12em;
         margin-top: 8rem;
+    }
+} */
+
+.logo2 {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    z-index: 1;
+
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+
+    object-fit: cover;
+    border-radius: 50%;
+
+    cursor: pointer;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+/* Hover effect */
+.logo2:hover {
+    transform: translateY(-50%) scale(1.1);
+    filter: drop-shadow(0 0 15px rgba(255, 255, 0, 0.7))
+            drop-shadow(0 0 25px rgba(255, 255, 0, 0.5));
+}
+
+/* Mobile */
+@media screen and (max-width: 840px) {
+    .logo2 {
+        top: 20%;
+        right: 50%;
+        transform: translateX(50%);
+        max-width: 250px;
+        opacity: 0.5;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo2 {
+        max-width: 200px;
+        top: 18%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .logo2 {
+        max-width: 160px;
+        top: 15%;
     }
 }
